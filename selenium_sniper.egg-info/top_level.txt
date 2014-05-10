@@ -1,6 +1,0 @@
-
-requests
-chardet
-selenium_sniper
-bs4
-urllib3
