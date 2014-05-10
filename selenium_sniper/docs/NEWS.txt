@@ -1,0 +1,16 @@
+0.3.1
+Released: 2014/05/02
++Locked in detection
+
+0.3
+Released: 2014/05/02
++Email sending support
+
+0.2
+Released: 2014/05/02
++Config file parsing
+-Many bugs, too many to recall
+
+0.1
+Released: 2014/04/10
+Initial (crappy) release

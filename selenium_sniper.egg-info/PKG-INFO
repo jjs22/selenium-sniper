@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: selenium-sniper
+Version: 0.3.1
+Summary: WPCP Selenium program that automagically signs you up for enrichments in a timely fashion
+Home-page: UNKNOWN
+Author: Benjamin Mintz
+Author-email: benjabean1@gmail.com
+License: GNU GPL v3
+Description: Selenium Sniper
+Platform: UNKNOWN
