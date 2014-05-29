@@ -1,3 +1,7 @@
+0.3.2
+Released: 05/28/2014
+*Hopefully fixed Windoze post-install script
+
 0.3.1
 Released: 2014/05/02
 +Locked in detection
