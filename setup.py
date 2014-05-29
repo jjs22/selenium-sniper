@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 includefiles = ['selenium_sniper/selenium.ini', 'selenium_sniper/docs/README.txt', 'selenium_sniper/docs/NEWS.txt']
  
@@ -15,5 +15,5 @@ setup(
     package_dir={"selenium_sniper": "selenium_sniper"},
     package_data={'selenium_sniper': ['*.ini'], 'selenium_sniper/docs': ['*.txt']},
     # packages=find_packages("bs4", "requests", exclude="docs")
-    scripts=['selenium_sniper/scripts/schtask.py']
+    scripts=['selenium_sniper/scripts/schtask.cmd']
 )
