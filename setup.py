@@ -15,5 +15,5 @@ setup(
     package_dir={"selenium_sniper": "selenium_sniper"},
     package_data={'selenium_sniper': ['*.ini'], 'selenium_sniper/docs': ['*.txt']},
     # packages=find_packages("bs4", "requests", exclude="docs")
-    scripts=['selenium_sniper/scripts/schtask.cmd']
+    scripts=['selenium_sniper/scripts/schtask.cmd', 'selenium_sniper/scripts/schtask.py']
 )
