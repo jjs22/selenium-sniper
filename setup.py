@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 includefiles = ['selenium_sniper/selenium.ini', 'selenium_sniper/docs/README.txt', 'selenium_sniper/docs/NEWS.txt']
  
