@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Selenium Sniper by bmintz</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Selenium Sniper</h1>
+        <h2>Soon-to-be Java-based WPCP Enrichments sniper</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/bmintz/selenium-sniper/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/bmintz/selenium-sniper/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/bmintz/selenium-sniper" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="selenium-sniper" class="anchor" href="#selenium-sniper" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selenium Sniper</h1>
+
+<p>Selenium Sniper is a Python program (will be Java-based soon) that automatically signs you up for pre-chosen <a href="http://selenium.wpcp.org/m/">Payton enrichments</a> at midnight, ten days in advance (the earliest possible time to sign up for enrichments). Well, technically the "automatically at midnight" part is handled by your OS's task scheduler program, but the Java program will just sit there all the time.</p>
+
+<h2>
+<a id="how-it-works" class="anchor" href="#how-it-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>How it works</h2>
+
+<p>Selenium doesn't actually have an API, so the mobile site is used (for its simplicity) to log in to the appropriate page at <a href="http://selenium.wpcp.org/m/">http://selenium.wpcp.org/m/</a> then actually sign up for the enrichment.</p>
+
+<h2>
+<a id="why-selenium" class="anchor" href="#why-selenium" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why Selenium?</h2>
+
+<p>It's not actually my choice of name, for the most part. "Selenium" is the element whose atomic number is <a href="https://en.wikipedia.org/wiki/Walter_Payton">Payton's</a> number, 34. <strong><em>Selenium Sniper</em> has nothing to do with the <a href="http://www.seleniumhq.org/">Selenium WebDriver system</a></strong>.</p>
+
+<h2>
+<a id="wheres-the-java-port-man" class="anchor" href="#wheres-the-java-port-man" aria-hidden="true"><span class="octicon octicon-link"></span></a>Where's the Java port, man?</h2>
+
+<p>It's on the way. Originally, I wrote Selenium Sniper in Python, because that's what I knew. The Python version <em>works</em>, (except for installation on Windows lol), but I want something more portable. Hopefully, writing a GUI app in Java SE will mean that I could easily port it to Android, and from there I could (again, hopefully) use <a href="http://j2objc.org/">J2ObjC</a> to port it to an iOS app.</p>
+
+<h2>
+<a id="do-you-love-me" class="anchor" href="#do-you-love-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>Do you love me?</h2>
+
+<p>Yes. <img class="emoji" title=":kissing_heart:" alt=":kissing_heart:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f618.png" height="20" width="20" align="absmiddle"></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><em>Full license details are available in the <a href="https://github.com/bmintz/selenium-sniper/LICENSE.md">LICENSE.md</a> file.</em></p>
+
+<pre><code>Selenium Sniper: Signs you up for Payton enrichments so you don't have to.
+Copyright (C) 2014-2015  Benjamin Mintz
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; version 2
+of the License only.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+</code></pre>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-61514107-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
