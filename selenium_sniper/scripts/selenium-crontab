@@ -1,0 +1,2 @@
+# Run Selenium Sniper!
+1 0 * * tue /usr/bin/python3 /home/pi/code/selenium-sniper/selenium_sniper/selenium.py
