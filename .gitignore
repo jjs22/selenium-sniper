@@ -44,4 +44,8 @@ coverage.xml
 docs/_build/
 
 # configuration files
+<<<<<<< HEAD
 selenium.ini
+=======
+selenium_sniper/selenium.ini
+>>>>>>> db29c4bbff7a4815b912db8eaf65e7f344339ab7
