@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
 # Selenium Sniper
 # WPCP Selenium program that automagically signs you up for enrichments in a timely fashion
 # Version 0.3.1
@@ -14,10 +14,13 @@ import configparser
 import datetime
 from email.mime.text import MIMEText
 from smtplib import SMTP_SSL as SMTP
+import os # For getting the current working directory
 
-# Read the config file
+# Get the current working directory
+
+# Read the config file using absolute paths
 config = configparser.ConfigParser()
-config.read('selenium.ini')
+config.read(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'selenium.ini'))
 
 # TODO: Add ability to sign up by enrichment name, as well as by ID
 # TODO: Ability to choose alternative enrichments
