@@ -3,10 +3,7 @@
 # WPCP Selenium program that automagically signs you up for enrichments in a timely fashion
 # Version 0.3.1
 # See NEWS file for what's changed in this version
-# Written by Benjamin Mintz
-# Send your spam (and any questions) to: benjabean1@gmail.com
-# Haha I have Gmail, I won't get your spam
-
+# Written by Benjamin Mintz (https://github.com/bmintz)
 
 from bs4 import BeautifulSoup
 import requests
