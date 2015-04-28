@@ -7,7 +7,7 @@ setup(
     version='0.3.1',
     packages=['', 'bs4', 'bs4.tests', 'bs4.builder', 'requests', 'selenium_sniper', 'chardet', 'urllib3', 'urllib3.packages', 'urllib3.contrib', 'urllib3.util', 'urllib3.packages.ssl_match_hostname'],
     url='',
-    license='GNU GPL v3',
+    license='GNU GPL v2',
     author='Benjamin Mintz',
     author_email='benjabean1@gmail.com',
     description='WPCP Selenium program that automagically signs you up for enrichments in a timely fashion',
